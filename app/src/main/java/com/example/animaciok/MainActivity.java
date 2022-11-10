@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 textViewBounce.startAnimation(bounce);
+                //Ez egy új feature, szerintem elég cool
             }
         });
         buttonFadeIn.setOnClickListener(new View.OnClickListener() {
